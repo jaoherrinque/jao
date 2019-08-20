@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hide Demo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="file:///C:/Users/ALUNO/Documents/IWS/Exercicio04/css/estilocss.css">
+	<script src="Script/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+
+	<a href="#" id="esconde"> Clique aqui para esconder</a><br/>
+	<a href="#" id="exibir">Clique aqui para exibir</a>
+
+	
+<h1>Paragrafo 1</h1>
+<p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet congue risus non feugiat. Nulla nulla dolor, maximus aliquet libero in, elementum tincidunt lectus. Donec ultricies fringilla turpis, et fringilla neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse porttitor purus varius libero varius, eu ultricies justo malesuada. Aliquam id faucibus nulla. Aenean nisi tellus, volutpat ac justo at, iaculis congue dolor. Curabitur urna dolor, ultrices pellentesque elementum vel, cursus nec dui. Donec faucibus orci vitae ex ullamcorper sagittis. Duis hendrerit bibendum tortor vitae placerat.</p>
+
+<h1>Paragrafo 2</h1>
+<p id="p2" style="color:">Sed et malesuada nibh. Curabitur vulputate nisl eget diam vestibulum sodales. Curabitur nec risus a lacus euismod feugiat. Donec vitae felis commodo, bibendum magna et, ornare elit. Mauris gravida condimentum dolor, non tristique purus bibendum congue. Donec condimentum, sapien id ultrices commodo, magna felis tempus diam, in consectetur ex magna in lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed maximus auctor tellus faucibus aliquam. Fusce nec dapibus tortor, a convallis neque. Cras varius sem vitae suscipit volutpat. Curabitur odio augue, tincidunt non nunc vitae, finibus suscipit lacus. Maecenas molestie orci ornare tempor tempor. In et sodales sapien. Suspendisse dui tortor, volutpat consectetur urna eu, blandit fringilla est. Donec suscipit, nisi in feugiat euismod, libero lorem lacinia turpis, eget lacinia lacus mauris vitae nisi. Sed eget venenatis enim, quis varius nulla.</p>
+
+<h1>Paragrafo 3</h1>
+<p id="p3">Aenean accumsan diam vitae nulla dapibus fringilla. Fusce ultricies luctus ipsum quis lobortis. Nulla imperdiet vulputate lectus ut finibus. Phasellus efficitur nisl ex, ac vestibulum nibh ultricies in. Nulla ut condimentum augue, a facilisis arcu. Vestibulum eu vestibulum quam, sed facilisis ligula. Ut viverra vehicula ex nec vestibulum. Morbi lorem ipsum, ultrices vitae sodales vitae, blandit et nisi.</p>
+
+<img src="file:///C:/Users/ALUNO/Documents/IWS/Exercicio04/Imagens/ateu.jpg" width="250" height="250" id="ateu" style="margin-right: 10px; margin-left: 10px;">
+
+
+
+<img src="file:///C:/Users/ALUNO/Documents/IWS/Exercicio04/Imagens/paonareff.jpg" width="250" height="250" title="PAONAREFF ">
+
+
+	<script> 
+		$( "#esconde" ).click(function( event ){
+			$( "p" ).hide();
+		});
+
+		$("#exibir").click(function( event ){
+			$( "p" ).show();
+
+		});
+
+		$( "#esconde" ).click(function( event ){
+			$( "h1" ).hide();
+		});
+
+		$("#exibir").click(function( event ){
+			$( "h1" ).show();
+			
+		});
+
+		$( "#esconde" ).click(function( event ){
+			$( "img" ).hide();
+		});
+
+		$("#exibir").click(function( event ){
+			$( "img" ).show();
+			
+		});
+
+
+	</script>
+
+</body>
+</html>
